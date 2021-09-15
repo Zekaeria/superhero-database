@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchResult from './SearchResult'; //may need to change
+//import SearchResult from './SearchResult'; //may need to change
 
 function SuperheroList(props){
     const {superheroData = []} = props;
@@ -8,7 +8,7 @@ function SuperheroList(props){
     return(
         <div>
             {superheroData.map(superhero => 
-                <SearchResult data={superhero} />
+               <SearchResult data={superhero} />
             )}
         </div>
     );

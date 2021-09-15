@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SearchResultItem(props) {
+function SearchResult(props) {
   const {data} = props;
 
   console.log('data', data);
@@ -22,4 +22,4 @@ function SearchResultItem(props) {
   );
 }
 
-export default SearchResultItem;
+export default SearchResult;

@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 
 function SearchBar(props) {
 const {handleChange, searchText} = props;
-
     //inside searchbar
     return (
         <div>
@@ -16,4 +15,5 @@ const {handleChange, searchText} = props;
         </div>
     );
 }
+
 export default SearchBar;

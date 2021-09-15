@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-function Navbar(props){
+function NavBar(props){
     return (
         <div className = "navbar"> 
             <span id = "logo"> Superhero Database </span>
@@ -13,4 +13,4 @@ function Navbar(props){
     );
 }
 
-export default Navbar; //imports func from another script file
+export default NavBar; //imports func from another script file
