@@ -5,16 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #c7edf2;
+  background: #242222;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* customizes navBar & other designs*/
-
 .navbar {
   height: 70px;
   border: 1px solid #e6e6e6;
@@ -22,25 +19,31 @@ code {
   align-items: center;
   padding: 0 16px;
   background: #fff;
+  
 }
 
+/* navbar font */
 #logo {
   font-size: 30px;
   font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main {
-  width: 700 px;
+  width: 600px;
   margin: 0 auto;
   margin-top: 20px;
 }
 
 #search-bar {
   width: 100%;
+  align-items: center;
   height: 50px;
-  padding-left: 10px;
   font-size: 20px;
   margin-bottom: 50px;
+  padding-left: 10px;
+  border-radius: 5px;
 }
 
 .search-result {
@@ -63,12 +66,5 @@ code {
 }
 
 .stats div {
-  font-size: 20px;
+  font-size: 15px;
 }
-
-
-
-
-
-
-
