@@ -51,14 +51,20 @@ code {
   background: #fff;
   box-sizing: border-box;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
+/*changes image positioning*/
 .search-result .left img {
-  height: 160px
+  height: 160px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
 }
 
 .search-result .right {
   padding-left: 30px;
+
 }
 
 .search-result .right h1 {
@@ -67,4 +73,5 @@ code {
 
 .stats div {
   font-size: 15px;
+
 }
