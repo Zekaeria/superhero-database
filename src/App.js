@@ -8,7 +8,6 @@ function App() {
   const [searchText, setSearchText] = useState('');  //declare new state variable called "search"
   const [superheroData, setSuperheroData] = useState([]);
 
-
   //calls API
   async function searchSuperHeroes () {
     const response = await fetch(`https://superheroapi.com/api.php/153665986925827/search/${searchText}`);
@@ -21,13 +20,13 @@ function App() {
 
   //when user inputs name into keyboard
   function handleChange (e) {
-    const searchTerm = e.target.value; //user input value set to 'searchTerm'
+    const searchHero = e.target.value; //user input value set to 'searchTerm'
     
-    setSearchText(searchTerm);
-    if (searchTerm.length === 0) {
+    setSearchText(searchHero);
+    if (searchHero.length === 0) {
       setSuperheroData([]);
     }
-    if (searchTerm.length > 3) {
+    if (searchHero.length > 3) {
       searchSuperHeroes();
     }
   }
